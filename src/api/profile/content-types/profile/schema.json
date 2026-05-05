@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "json"
+    },
+    "passion": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "passionDescription": {
+      "type": "blocks"
+    },
+    "longDescription": {
+      "type": "blocks"
+    },
+    "buttonText1": {
+      "type": "string"
+    },
+    "buttonText2": {
+      "type": "string"
+    },
+    "buttonText1Url": {
+      "type": "string"
+    },
+    "buttonText2Url": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "gitHubUrl": {
+      "type": "string"
+    },
+    "linkedInUrl": {
+      "type": "string"
+    }
+  }
+}

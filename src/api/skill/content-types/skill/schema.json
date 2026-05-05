@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skill"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Frontend",
+        "Backend",
+        "Tools & Others"
+      ]
+    },
+    "iconSVG": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "text-chart-1",
+        "text-chart-2",
+        "text-chart-3",
+        "text-chart-4"
+      ]
+    },
+    "gradient": {
+      "type": "enumeration",
+      "enum": [
+        "from-chart-1",
+        "from-chart-2",
+        "from-chart-3",
+        "from-chart-4"
+      ]
+    }
+  }
+}
