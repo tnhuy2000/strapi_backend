@@ -34,53 +34,10 @@
       "required": true
     },
     "category": {
-      "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "enum": [
-        "Frontend",
-        "Backend",
-        "Tools & Others"
-      ]
-    },
-    "iconSVG": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
-    "color": {
-      "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "enum": [
-        "text-chart-1",
-        "text-chart-2",
-        "text-chart-3",
-        "text-chart-4"
-      ]
-    },
-    "gradient": {
-      "type": "enumeration",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "enum": [
-        "from-chart-1",
-        "from-chart-2",
-        "from-chart-3",
-        "from-chart-4"
-      ]
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "skills"
     }
   }
 }
