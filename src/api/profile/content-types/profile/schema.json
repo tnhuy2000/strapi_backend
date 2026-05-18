@@ -49,7 +49,7 @@
         }
       }
     },
-    "passion": {
+    "experience": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
